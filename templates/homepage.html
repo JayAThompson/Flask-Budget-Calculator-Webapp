@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Budget Calculator!</title>
+		<link rel="stylesheet" type="type/css" href="{{ url_for('static', filename='style.css') }}">
+		<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+	</head>
+	<body>
+		<table id="theTable">
+		<tr id="labelRow">
+			<td> Categories:</td>
+			</tr>
+		<tr id="budgetRow">
+			<td>Monthly Limit:</td>
+			</tr>
+		<tr id="spentRow">
+			<td>Amount Spent:</td>
+			</tr>
+		<tr id="calcRow">
+			<td>Remaining:</td>
+			</tr>
+		</table>
+		<h3> Add New Category: </h3>
+		<form name="catForm" id="catForm">
+			<input type="text" id="catName" name="" value="" placeholder="Category Name" required />
+			<input type="number" id="catVal" placeholder="Monthly Limit" required/>
+			<input type="button" id="catButton" value="Add" />
+		</form>
+		<h3>Add New Purchase:</h3>
+		<form name="purchForm" id="purchForm">
+			<input type="date" id="purchDate" />
+			<input type="text" id="thePurchase" name="" value="" placeholder="The Purchase" required/>
+			<input type="number" id="paidOut" placeholder="Amount Spent" required />
+			<select id="catDrop" required>
+			
+			</select>
+			<input type="button" id="purchButton" value="Add"/>
+		</form>
+		<h3>Delete a Category:</h3>
+		<form id="deleteForm">
+			<select id ="deleteDrop">
+			
+			</select>
+			<input type="button" id="deleteButton" value="Delete"/>
+		</form>
+	</body>
+</html>
+

@@ -1,0 +1,53 @@
+========================================
+CS/COE 1520 Assignment Information Sheet
+----------------------------------------
+
+You must submit an information sheet with every assignment. Also be sure
+to submit all materials following the procedures described on the
+submission procedures page.
+
+Name:  Jay Thompson
+
+Lecture section:  M/W 2:30-4:15
+
+Recitation day and time:  W 1:30-2:20
+
+Assignment #:  4
+
+Program due date: 8/3  
+
+Handed in date:  8/1
+
+Source code file name(s):
+budget.py
+script.js
+
+
+
+
+
+Other file name(s) (if relevant):
+homepage.html
+
+
+
+
+
+Does your project run without error?: For the most part
+
+If not, what is/are the error(s) and which parts of your program run
+correctly?:
+
+About 1 in 15 times if you refresh the page the amounts spent don't update properly
+I think it may be a race condition issue
+Just refresh again and it should fix itself
+
+
+Additional comments to the grader:
+While it says explicitly that you need to add the date of purchase, it does not actually say explicitly anywhere that you need to do anything with them.
+Have a nice day, cheers
+
+
+
+
+
